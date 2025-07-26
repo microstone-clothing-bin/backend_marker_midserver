@@ -1,4 +1,4 @@
-package com.example.clothing_midserver;
+package com.example.clothing_midserver.marker;
 
 public class ClothingBin {
     private Long id;

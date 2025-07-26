@@ -1,4 +1,4 @@
-package com.example.clothing_midserver;
+package com.example.clothing_midserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

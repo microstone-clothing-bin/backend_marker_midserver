@@ -1,4 +1,6 @@
-package com.example.clothing_midserver;
+// 로그인 비활성화
+
+package com.example.clothing_midserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

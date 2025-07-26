@@ -5,7 +5,7 @@ FROM eclipse-temurin:21-jdk-jammy
 VOLUME /tmp
 
 # 빌드된 jar 파일을 컨테이너에 복사
-COPY gradle/wrapper/gradle-wrapper.jar /app/gradle-wrapper.jar
+COPY build/libs/clothing-midserver-0.0.1-SNAPSHOT.jar app.jar
 
 # 컨테이너 시작할 때 실행할 명령어
 ENTRYPOINT ["java", "-jar", "/app.jar"]

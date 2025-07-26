@@ -1,4 +1,4 @@
-# Base image: Java 21 (17로 변경해야 할 수도 있음)
+# Base image: Java 21 (필요하면 17로 바꿔도 됨)
 FROM eclipse-temurin:21-jdk-jammy
 
 # /tmp 폴더를 위한 볼륨 세팅 (Spring boot)

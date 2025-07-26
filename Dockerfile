@@ -1,5 +1,5 @@
 # Base image: Java 21 (17로 변경해야 할 수도 있음)
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:21-jdk-jammy
 
 # /tmp 폴더를 위한 볼륨 세팅 (Spring boot)
 VOLUME /tmp
